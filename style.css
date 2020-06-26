@@ -13,16 +13,31 @@
 	top: 0;
 }*/
 
-.header-top{
-	background-color: #f72210
+
+.container{
+	background-color: red;
 }
 
+#bootstrap-overrides-header-top{
+	display: flex;
+	background-color: #dc3545;
+}
 
 .button{
 	font: bold 13px/24px "Roboto Condensed",sans-serif;
     cursor: pointer;
     text-transform: uppercase;
 }
+
+.flex-xs-6{
+	width: 50%;
+}
+
+.jc-fe{
+	justify-content: flex-end;
+}
+
+
 
 .login.button{
 	
@@ -32,10 +47,16 @@
     border-radius: 24px;
 }
 
+
+
 .subscribe.button{
 	background-color: #ffe400;
     color: black;
     border-radius: 24px;
     display: flex;
     align-items: center;
+}
+
+button{
+    color: red;
 }
