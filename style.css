@@ -23,7 +23,7 @@
 	background-color: #dc3545;
 }
 
-.button{
+#login{
 	font: bold 13px/24px "Roboto Condensed",sans-serif;
     cursor: pointer;
     text-transform: uppercase;
