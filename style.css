@@ -15,7 +15,13 @@
 
 
 .container{
-	background-color: red;
+	background-color: #f72210;
+}
+
+.logo-small{
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
 }
 
 #bootstrap-overrides-header-top{
