@@ -199,7 +199,8 @@ html, body{
 
 .left-section{
     position: relative;
-    height: 2687px;
+    /*height: 2687px;*/
+    height: 2300px;
     width: 100%;
 }
 
@@ -350,7 +351,7 @@ html, body{
 }
 
 .debate-title{
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Roboto Condensed",sans-serif;
     font-weight: 700;
     color: #333;
@@ -423,7 +424,149 @@ html, body{
 
 .opinion.byline{
     font-size: 12px;
+    /*font-weight: 700;*/
 }
+
+.nw-signup{
+    max-width: 300px;
+    margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
+}
+
+
+.n-logo{
+    width: 30px;
+    height: 30px;
+    background-color: #f72210;
+    margin-right: 8px;
+}
+
+.sign-uptext{
+    font: 19px;
+    font-weight: 700;
+    font-family:"Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-left: 5px;
+}
+
+
+/*input.form-submit, input.form-text{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0;
+    font-family: "Roboto Condensed",sans-serif;
+}
+*/
+
+.form-text,.form-submit{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+
+.form-text{
+    color: #555;
+    font-size: 14px;
+    font-family: "Helvetica",sans-serf;
+    background-color: white;
+    border: 1px solid #e0e1e1;
+    text-indent: 9px;
+}
+    
+.form-submit {
+    margin-top: 8px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+    background: #f61602;
+    border-radius: 3px;
+}
+
+
+/*footer*/
+.page-footer {
+    padding: 30px;
+    /*padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;*/
+    background-color: white;
+    position: relative;
+}
+
+.footer-header{
+    border-bottom: 1px solid #dedede;
+}
+
+#logo-footer-color{
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    fill: #f72210;
+}
+
+
+.social-li{
+    margin-bottom: 4px;
+}
+
+.social-item{
+    margin-left: 10px;
+}
+
+.social-logo{
+   color: #212529;
+   line-height: 24px;
+   font-size: 25px;
+   font-family: "Genericons";
+   cursor: pointer;
+}
+
+.copyright{
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.footer-bottom{
+    padding-top: 10px;
+}
+
+.right-border{
+    border-right: 1px solid #d9d9d9;
+}
+
+.ed-lable{
+    margin-right: 15px;
+}
+
+.edition-item{
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.edition-item a{
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+.inline-bl{
+    display: inline-block;
+}
+
+
 
 /*media query*/
 
@@ -432,3 +575,5 @@ html, body{
         display: none;
     }
 }
+
+
